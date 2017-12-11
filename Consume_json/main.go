@@ -10,7 +10,7 @@ type Funcionarios struct {
 	Fname  string `json:"fname"`
 	Sname string `json:"sname"`
 	Gender  string `json:"gender"`
-	Age uint `json: age`
+	Age uint `json:"age"`
 	Height uint    `json:"height"`
 }
 
@@ -30,6 +30,6 @@ func main() {
     fmt.Println(err2.Error())
   }
   for _,x := range friends{
-    fmt.Printf("%s, %s, %d \n",x.Fname, x.Sname, x.Height)
+    fmt.Printf("%s, %s, %d \n",x.Fname, x.Sname, x.Age)
   }
 }
