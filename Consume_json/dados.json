@@ -1,8 +1,8 @@
 [
-    {"fname":"Rodrigo","sname":"Carvalho","gender":"m", "age:":35, "height":172},
-    {"fname":"Hannah","sname":"Milne","gender":"F", "age:":35, "height":171},
-    {"fname":"Stuart","sname":"Ramdeen","gender":"M", "age:":35, "height":182},
-    {"fname":"Zishan","sname":"Sheikh","gender":"M", "age:":35, "height":183},
-    {"fname":"Shiva","sname":"Basu","gender":"F", "age:":35, "height":171},
-    {"fname":"Alec","sname":"Richardson","gender":"M", "age:":35, "height":187}
+    {"fname":"Rodrigo","sname":"Carvalho","gender":"m", "age":35, "height":172},
+    {"fname":"Hannah","sname":"Milne","gender":"F", "age":23, "height":171},
+    {"fname":"Stuart","sname":"Ramdeen","gender":"M", "age":15, "height":182},
+    {"fname":"Zishan","sname":"Sheikh","gender":"M", "age":64, "height":183},
+    {"fname":"Shiva","sname":"Basu","gender":"F", "age":28, "height":171},
+    {"fname":"Alec","sname":"Richardson","gender":"M", "age":47, "height":187}
   ]

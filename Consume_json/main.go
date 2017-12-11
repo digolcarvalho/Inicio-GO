@@ -30,6 +30,6 @@ func main() {
     fmt.Println(err2.Error())
   }
   for _,x := range friends{
-    fmt.Printf("%s, %s, %d \n",x.Fname, x.Sname, x.Age)
+    fmt.Printf("%s, %s, %d, %d \n",x.Fname, x.Sname, x.Age, x.Height)
   }
 }
