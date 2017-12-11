@@ -6,22 +6,23 @@ import (
   	"encoding/json"
 )
 
-type Friend struct {
+type Funcionarios struct {
 	Fname  string `json:"fname"`
 	Sname string `json:"sname"`
 	Gender  string `json:"gender"`
-	Height int    `json:"height"`
+	Age uint `json: age`
+	Height uint    `json:"height"`
 }
 
 func main() {
 
-  content, err := ioutil.ReadFile("friends.json")
+  content, err := ioutil.ReadFile("dados.json")
 	if err != nil {
 		fmt.Println(err.Error())
 	}
 
 
-  var friends []Friend
+  var friends []Funcionarios
 // json.Unmarshal(content, &friends)
   err2 := json.Unmarshal(content, &friends)
   if err2 != nil {
@@ -29,10 +30,6 @@ func main() {
     fmt.Println(err2.Error())
   }
   for _,x := range friends{
-    fmt.Printf("%s \n",x.Fname)
+    fmt.Printf("%s, %s, %d \n",x.Fname, x.Sname, x.Height)
   }
-
-
-
-}
 }
